@@ -31,7 +31,7 @@ public class Program {
 			+ "VALUES"
 			+ "(?, ?, ?, ?, ?)",
 			Statement.RETURN_GENERATED_KEYS); 
-		//this is a placeHolder: "?", one for each information a need
+		//this is a placeHolder: "?", one for each information I need
 		st.setString(1, "Eduardo"); //"1" position of the "?", after the "," the information that will be inserted
 		st.setString(2, "eduardo.d.liberato@success.com");
 		st.setDate(3, new java.sql.Date(sdf.parse("16/03/2000").getTime()));
